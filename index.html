@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800;900&family=DM+Serif+Display&family=Fraunces:opsz,wght@9..144,900&family=Jost:wght@400;600;900&family=Kaushan+Script&family=Lato&family=Montserrat:wght@400;700&family=Poppins:wght@200;400;500;600;700;900&family=Roboto:wght@100;400;900&family=Rufina:wght@700&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a class="logo" href="#">
+                        <img src="img/photo_2023-08-07 09.15 1.svg">
+                        <span class="nav-item">Admin</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-menorah"></i>
+                        <span class="nav-item">Dashboard</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#">
+                        <i class="fas fa-comment"></i>
+                        <span class="nav-item">Message</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-database"></i>
+                        <span class="nav-item">Report</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-chart-bar"></i>
+                        <span class="nav-item">Attendance</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        <span class="nav-item">Setting</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="logout">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span class="nav-item">Log out</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="main">
+            <div class="main-top">
+                <h1>Attendance</h1>
+                <i class="fas fa-user-cog"></i>
+            </div>
+
+            <div class="users">
+                <div class="card">
+                    <img src="img/images.jpg" alt="image">
+                    <h4>Luther King</h4>
+                    <p>Hiring</p>
+                    <div class="per">
+                        <table>
+                            <tr>
+                                <td><span>85%</span></td>
+                                <td><span>87%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Month</td>
+                                <td>Year</td>
+                            </tr>
+                        </table>
+                        <button>Profile</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/images.jpg" alt="image">
+                    <h4>Clayton Rick</h4>
+                    <p>Hiring</p>
+                    <div class="per">
+                        <table>
+                            <tr>
+                                <td><span>85%</span></td>
+                                <td><span>87%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Month</td>
+                                <td>Year</td>
+                            </tr>
+                        </table>
+                        <button>Profile</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/images.jpg" alt="image">
+                    <h4>Jeck Atkins</h4>
+                    <p>Hiring</p>
+                    <div class="per">
+                        <table>
+                            <tr>
+                                <td><span>85%</span></td>
+                                <td><span>87%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Month</td>
+                                <td>Year</td>
+                            </tr>
+                        </table>
+                        <button>Profile</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/images.jpg" alt="image">
+                    <h4>Luis Batt</h4>
+                    <p>Hiring</p>
+                    <div class="per">
+                        <table>
+                            <tr>
+                                <td><span>85%</span></td>
+                                <td><span>87%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Month</td>
+                                <td>Year</td>
+                            </tr>
+                        </table>
+                        <button>Profile</button>
+                    </div>
+                </div>
+            </div>
+            <section class="attendance">
+                <div class="attendance-list">
+                    <h2>Attendance List</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Depart</th>
+                                <th>Date</th>
+                                <th>Joint Time</th>
+                                <th>Logout time</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>01</td>
+                                <td>Sam David</td>
+                                <td>Design</td>
+                                <td>03-24-22</td>
+                                <td>8:00 AM</td>
+                                <td>3:00 PM</td>
+                                <td><button>View</button></td>
+                            </tr>
+                            <tr class="active">
+                                <td>02</td>
+                                <td>Jon Doe</td>
+                                <td>Fleet</td>
+                                <td>03-24-22</td>
+                                <td>9:00 AM</td>
+                                <td>4:00 PM</td>
+                                <td><button>View</button></td>
+                            </tr>
+                            <tr class="active">
+                                <td>02</td>
+                                <td>Jon Doe</td>
+                                <td>Fleet</td>
+                                <td>03-24-22</td>
+                                <td>9:00 AM</td>
+                                <td>4:00 PM</td>
+                                <td><button>View</button></td>
+                            </tr>
+                            <tr class="active">
+                                <td>02</td>
+                                <td>Jon Doe</td>
+                                <td>Fleet</td>
+                                <td>03-24-22</td>
+                                <td>9:00 AM</td>
+                                <td>4:00 PM</td>
+                                <td><button>View</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </section>
+    </div>
+</body>
+</html>
